@@ -15,11 +15,13 @@ Mai Tran
 - https://zenodo.org/record/5101018#.Ym87b9rMI2w
 
 # What is an individual sample/unit of analysis in this project? In other words, what does one row or observation of the data represent?
+- there are 788 text brands with each brand having at least 2 image logos. Therefore, there are at least around 1,576 data points
 
 # What characteristics/features do you expect to work with? In other words, what are your columns of interest?
+- for each logo, there at least 2 images of it
 
 # If modeling, what will you predict as your target?
-- 
+- For my model, the targe will be a correct text brand classification for an image logo
 
 # Tools:
 - Data manipulation and modeling: Pandas, Numpy, and Scikit-learn
@@ -47,4 +49,4 @@ For recommendation engine:
 
 # MVP Goal:
 # What would a minimum viable product (MVP) look like for this project?
-- A
+- For the MVP, I plan to have at least a working image classification algorithm and a recommendation engine
