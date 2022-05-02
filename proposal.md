@@ -14,3 +14,37 @@ Mai Tran
 - I am using an image dataset called Logos in the Wild created by Fraunhofer IOSB in Karlsruhe, Germany. 
 - https://zenodo.org/record/5101018#.Ym87b9rMI2w
 
+# What is an individual sample/unit of analysis in this project? In other words, what does one row or observation of the data represent?
+
+# What characteristics/features do you expect to work with? In other words, what are your columns of interest?
+
+# If modeling, what will you predict as your target?
+- 
+
+# Tools:
+- Data manipulation and modeling: Pandas, Numpy, and Scikit-learn
+- Neural Networks for Image Classification: Keras
+- Recommendation Engine: Deep AI Image Similarity API
+- Web Application of Recommendation Engine: Streamlit
+
+# How do you intend to meet the tools requirement of the project?
+For image classification:
+1) Set up a GPU on Google Colab
+2) Perform EDA
+3) Pre-process image data
+4) Use Convolutional Neural Networks and transfer learning to perform image classification
+5) Test some pre-trained classification logo models
+6) Visualize the results
+
+For recommendation engine:
+1) Build a recommendation system based on images using Deep AI Image Similarity API
+2) Implement the recommendation system on Streamlit
+
+# Are you planning in advance to need or use additional tools beyond those required?
+1) Google Colab
+2) Streamlit
+3) Deep AI Image Similarity API
+
+# MVP Goal:
+# What would a minimum viable product (MVP) look like for this project?
+- A
