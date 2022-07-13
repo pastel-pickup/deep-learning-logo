@@ -35,7 +35,6 @@ According to Forbes, 78 percent of pet owners acquired their pets during the COV
    8) Training and Testing Logistic Regression On Saved Predicted Features From VGG16
    9) Highest Accuracy Achieved With Transfer Learning was 86.0%
 
-
 # Data
 The image dataset was originally created by Omkar M Parkhi, Andrea Vedaldi, Andrew Zisserman, and C.V. Jawahar of University of Oxford. The dataset is also available on Kaggle to download for commercial/research purposes under a Creative Commons Attribution-ShareAlike 4.0 Internation License. The dataset has a total of 7384 images of cats and dogs representing 37 different breeds or classes. Each breed has approximately 200 images. 
 
@@ -55,4 +54,6 @@ The image dataset was originally created by Omkar M Parkhi, Andrea Vedaldi, Andr
 - Matplotlib, Seaborn for plotting and visualizations
 
 # Communication
+7. The CNN model tuning results are as follows:
+   <img width="474" alt="model_tuning" src="https://user-images.githubusercontent.com/67651332/178849945-583277ed-1049-4ad7-aae4-10834bb31b06.PNG">
 
