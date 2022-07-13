@@ -23,7 +23,17 @@ According to Forbes, 78 percent of pet owners acquired their pets during the COV
 5. Custom Baseline CNN Model With Manual Tuning - The Baseline CNN Model was built with 9 hidden layers with first Conv2D layer having 64 neurons, second Conv2D 128 neurons, and third Conv2D 128 neurons with RELU as activation function for all 3 Conv2D layers. Batch size chosen was 80 with input image size 150x150. Manual tuning involved doubling input image size, number of neurons, decreasing batch size, adjusting learning rate, and changing activation functions. The best model yielded 5.4% of accuracy. 
 
 
-6. Logistic Regression with Pre-Trained VGG16 Transfer Learning - 
+6. Logistic Regression with Pre-Trained VGG16 Transfer Learning - Logistic Regression was used as a baseline model with transfer learning with pre-trained weights and features transferred over from a pre-trained VGG16 neural network model. The transfer learning process consisted of the following steps:
+
+   1) Importing VGG16 Pre-Traied Model
+   2) Downloading Image Data
+   3) Extracting Image Data
+   4) Storing All Image Data in A List as X and Storing Their Corresponding IDs In Another List as Y
+   5) Applying VGG16 Pre-Trained Model and Its Weights
+   6) Saving Predicted Features From VGG16
+   7) Transfer Learning/Feature Transfer: Loading Saved Predicted Featurs From VGG16 To Use Them As Training Data For Logstic Regression
+   8) Training and Testing Logistic Regression On Saved Predicted Features From VGG16
+   9) Highest Accuracy Achieved With Transfer Learning was 86.0%
 
 
 # Data
