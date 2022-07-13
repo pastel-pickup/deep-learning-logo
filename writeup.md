@@ -13,11 +13,17 @@ According to Forbes, 78 percent of pet owners acquired their pets during the COV
    ![bar_graph_breeds (3)](https://user-images.githubusercontent.com/67651332/178844933-69c557de-4f2b-493d-b4f8-5bc0d22bbe25.png)
 
 
-3. Performance Metric Selection - Accuracy was chosen for this project because it is a good metric to generally describe how well a model perform across all of 37 equal classes. It is important when all of classes are of equal importance and there is no class imbalance. 
+3. The following picture matrix shows a representative image of each pet breed:
+
+   ![img_per_breed_edited](https://user-images.githubusercontent.com/67651332/178845956-f3a69447-3c24-4044-b82f-d8427be77b29.png)
+
+4. Performance Metric Selection - Accuracy was chosen for this project because it is a good metric to generally describe how well a model perform across all of 37 equal classes. It is important when all of classes are of equal importance and there is no class imbalance. 
 
 
-4. Custom Baseline CNN Model With Manual Tuning 
-8. Logistic Regression with Pre-Trained VGG16 Transfer Learning
+5. Custom Baseline CNN Model With Manual Tuning - The Baseline CNN Model was built with 9 hidden layers with first Conv2D layer having 64 neurons, second Conv2D 128 neurons, and third Conv2D 128 neurons with RELU as activation function for all 3 Conv2D layers. Batch size chosen was 80 with input image size 150x150. Manual tuning involved doubling input image size, number of neurons, decreasing batch size, adjusting learning rate, and changing activation functions. The best model yield 5.4% of accuracy. 
+
+
+6. Logistic Regression with Pre-Trained VGG16 Transfer Learning
 
 
 # Data
