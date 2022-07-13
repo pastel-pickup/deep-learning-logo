@@ -13,11 +13,11 @@ The image dataset was originally created by Omkar M Parkhi, Andrea Vedaldi, Andr
 # Algorithms
 
 # Tools
-Python (pandas, numpy)
-Google colab (Cloud computing)
-Keras/Tensorflow
-OpenCV
-Matplotlib, Seaborn
+- Python (pandas, numpy)
+- Google Colab (cloud computing)
+- Keras/Tensorflow
+- OpenCV
+- Matplotlib, Seaborn
 
 # Communication
 
