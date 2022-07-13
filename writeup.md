@@ -54,9 +54,11 @@ The image dataset was originally created by Omkar M Parkhi, Andrea Vedaldi, Andr
 - Matplotlib, Seaborn for plotting and visualizations
 
 # Communication
-   The CNN model tuning results are as follows:
+   The CNN model tuning results are as follows: 
+   
    <img width="474" alt="model_tuning" src="https://user-images.githubusercontent.com/67651332/178849945-583277ed-1049-4ad7-aae4-10834bb31b06.PNG">
    
    Model Performance Comparison:
+   
    ![model_performance_catdog](https://user-images.githubusercontent.com/67651332/178851871-74993c49-c6d1-4152-853d-07a36e43fcd9.png)
 
