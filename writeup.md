@@ -11,6 +11,13 @@ According to Forbes, 78 percent of pet owners acquired their pets during the COV
 The image dataset was originally created by Omkar M Parkhi, Andrea Vedaldi, Andrew Zisserman, and C.V. Jawahar of University of Oxford. The dataset is also available on Kaggle to download for commercial/research purposes under a Creative Commons Attribution-ShareAlike 4.0 Internation License. The dataset has a total of 7384 images of cats and dogs representing 37 different breeds or classes. Each breed has approximately 200 images. 
 
 # Algorithms
+
 # Tools
+Python (pandas, numpy)
+Google colab (Cloud computing)
+Keras/Tensorflow
+OpenCV
+Matplotlib, Seaborn
+
 # Communication
 
